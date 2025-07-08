@@ -18,7 +18,7 @@ Este proyecto es un formulario de registro (sign-up) moderno hecho con HTML y CS
 
 ## Vista previa
 
-![Vista previa del formulario](https://alexandrafs5.github.io/sign-up-form/)  
+https://alexandrafs5.github.io/sign-up-form/
 
 ---
 
