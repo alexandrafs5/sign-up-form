@@ -68,7 +68,55 @@ p {
 
 /*FORM SECTION*/
 
+.form-section {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.form-tittle {
+    font-size: 32px;
+    font-weight: 500;
+    color: #1a1a1a;
+    padding-bottom: 25px;
+}
+
+.input-fields {
+    display: flex;
+    gap: 60px;
+}
+
+.label-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 10px;
+    padding-right: 100px;
+    font-size: 16px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+    border-color: #dc2626; /* rojo */
+    box-shadow: 0 0 5px rgba(220, 38, 38, 0.5);
+}
+
+label {
+    font-size: 14px;
+    color: #1a1a1a;
+}
 
 /*BUTTON SECTION*/
 
