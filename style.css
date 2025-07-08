@@ -7,6 +7,7 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
+    background-color: #f2f2f2;
 }
 
 .entire-page {
@@ -41,16 +42,11 @@ img {
 .name-logo {
     color: white;
     font-size: 90px;
-    margin: 0;
     font-family: 'Norse Bold', sans-serif;
     font-weight: bold;
 }
 
 /*PHRASE SECTION*/
-
-.phrase-section, .button-section {
-    background-color: #f2f2f2;
-}
 
 .phrase-section {
     font-size: 32px;
@@ -72,6 +68,8 @@ p {
     padding-left: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
 .form-tittle {
@@ -109,7 +107,7 @@ input:focus {
 }
 
 input:invalid:not(:focus):not(:placeholder-shown) {
-    border-color: #dc2626; /* rojo */
+    border-color: #dc2626;
     box-shadow: 0 0 5px rgba(220, 38, 38, 0.5);
 }
 
@@ -120,4 +118,48 @@ label {
 
 /*BUTTON SECTION*/
 
+.button-section {
+    margin-top: 50px;
+    padding-left: 100px;
+    height: 195px;
+}
 
+button {
+    padding: 14px 28px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #4d5c3f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(89, 109, 72, 0.5);
+}
+
+.button-section p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+}
+
+.button-section p a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button-section p a:hover {
+    text-decoration: underline;
+}
