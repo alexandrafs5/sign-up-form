@@ -1,18 +1,47 @@
-body {
-    font-family: "Roboto", sans-serif;
+@font-face {
+  font-family: 'Norse Bold';
+  src: url("fonts/Norse-Bold.otf") format('opentype');
+  font-weight: bold;
 }
 
-.logo-background{
-    background-color: grey
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.entire-page {
+    display: flex;
 }
 
 .logo-section {
-    width: 1000px;
-    height: 1000px;
+    min-width: 650px;
+    min-height: 960px;
     background-image: url("images/background-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.logo-background {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:32px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 220px;
+}
+
+.name-logo {
+    color: white;
+    font-size: 90px;
+    margin: 0;
+    font-family: 'Norse Bold', sans-serif;
+    font-weight: bold;
 }
 
 .phrase-section, .button-section {
