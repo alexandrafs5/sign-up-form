@@ -13,6 +13,8 @@ body {
     display: flex;
 }
 
+/*LOGO SECTION*/
+
 .logo-section {
     min-width: 650px;
     min-height: 960px;
@@ -23,7 +25,7 @@ body {
 }
 
 .logo-background {
-    margin-top: 220px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +35,7 @@ body {
 
 img {
     max-width: 100px;
-    max-height: 220px;
+    max-height: fit-content;
 }
 
 .name-logo {
@@ -44,8 +46,30 @@ img {
     font-weight: bold;
 }
 
+/*PHRASE SECTION*/
+
 .phrase-section, .button-section {
-    background-color: gray;
-    width: 300px;
-    height: 300px;
+    background-color: #f2f2f2;
 }
+
+.phrase-section {
+    font-size: 32px;
+    text-align: justify;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 250px;
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}
+
+/*FORM SECTION*/
+
+
+
+/*BUTTON SECTION*/
+
+
