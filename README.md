@@ -12,7 +12,7 @@ Este proyecto es un formulario de registro (sign-up) moderno hecho con HTML y CS
 - Botón de envío con efectos visuales y accesibilidad.
 - Separación visual clara entre secciones para mejorar la experiencia.
 - Uso correcto de etiquetas semánticas y atributos (`form`, `type`, `pattern`).
-- Responsive y listo para integrarse en proyectos más grandes.
+- Listo para integrarse en proyectos más grandes.
 
 ---
 
